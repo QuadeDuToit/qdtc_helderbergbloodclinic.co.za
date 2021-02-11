@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Helderberg Blood Clinic</title>
+
+    <link href="assets/plugins/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css?4" rel="stylesheet" />
+
+</head>
+<body>
+     
+    <div class="container-fluid">
+
+        <div class="row header-row">
+
+            <div class="col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2 logo">
+                <img src="assets/images/logo.jpg" />
+            </div>
+
+            <div class="col-8 col-sm-8 col-md-8 col-lg-10 col-xl-10  header-logo">
+                Helderberg HAEMATOLOGY Clinic
+            </div>
+
+            <div class="col-2 offset-10">
+                <a href="https://www.helderbergbloodclinic.co.za/" class="header-lnk">Home</a>
+            </div>
+
+        </div>
+
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+
+                    <div class="item">
+                        <img src="assets/images/hdr-1.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/hdr-2.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/hdr-3.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/hdr-4.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/hdr-5.jpg" />
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row bio">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-3">
+
+                    <div class="img-holder">
+
+                        <div class="img">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-9 ">
+
+                    <p>
+                        Dr. Jacques Janse van Rensburg, Clinical Haematologist, has been registered with the Department of Health as well as the South African Oncology Consortium (SAOC) for 3 years to mix and administer chemotherapy for Haematological conditions at his practice in Mediclinic Vergelegen, Somerset West.
+
+                    </p><p>
+
+                        He has been at Vergelegen since 2014 and is also active in hospital and practice as a Specialist Physician. He is assisted by a registered oncology nurse, Sr Lidia Marais, who has 18 years of experience in the administering and monitoring of chemotherapy infusions.
+
+                    </p><p>
+
+                        There is a brand new 6-treatment-station unit (5 chairs and one bed) in the new Block One at Vergelegen and treatment is offered at medical aid tariffs (all schemes).
+
+                    </p><p>
+
+                        Haematological conditions most likely to benefit from the new unit include, but not limited to, Multiple Myeloma, Lymphoma, Chronic leukaemia’s and Bone marrow failure syndromes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+
+                    <div class="card card-blue card-1">
+
+                        <div class="img">
+                        </div>                     
+
+                        <h3>
+                            Sr Lidia, Dr Jacques, Zelda and Naomi
+                        </h3>
+
+                        <div class="card-lid">
+                            <h5>MEET</h5>
+                            <h5>THE</h5>
+                            <h2>TEAM</h2>
+                            <div class="br"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+
+                    <div class="card card-red card-2">
+                        Email: reception@clinhaem.co.za<br />
+                        Tel: 021 840 7020<br />
+                        Suite 111, Block 1, Vergelegen Mediclinic
+                        <div id="map"></div>
+                        <div class="card-lid">
+                            <h2>CONTACT</h2>
+                            <h5>US</h5>
+                            <div class="br"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+
+                    <div class="card card-blue card-3">
+
+                        <ul>
+                            <li>
+                                Contracts with all the medical schemes.
+                            </li>
+                            <li>
+                                Oncology treatment pre-authorised at medical aid tariffs
+                            </li>
+                            <li>
+                                Chemotherapy delivered by designated DSP of Medical aids
+                            </li>
+                            <li>
+                                Practice management by MFI
+                            </li>
+
+                        </ul>
+                        <img src="assets/images/MFI Logo.jpeg" height="150" />
+
+                        <div class="card-lid">
+                            <h5>MEDICAL</h5>
+                            <h5>AID</h5>
+                            <h2>TARRIFS</h2>
+                            <div class="br"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+     
+    <script src="assets/plugins/jquery.min.js"></script>
+    <script src="assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+
+    <script>
+        var map;
+        function initMap() {
+            // The location of Uluru -33.9186744,,    -34.090887, 18.858097
+            var uluru = { lat: -34.090887, lng: 18.858097 };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 14, center: uluru });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({ position: uluru, map: map });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjCxAJ7bICCAlkOCMNUhcRbdF6z3B9l4U&callback=initMap"
+            async defer></script>
+
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "assets/js/main.min.js",
+    "inputFile": "assets/js/main.js"
+  },
+  {
+    "outputFile": "assets/css/main.css",
+    "inputFile": "assets/css/main.scss"
+  }
+]

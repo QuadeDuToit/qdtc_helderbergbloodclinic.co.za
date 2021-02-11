@@ -1,0 +1,194 @@
+﻿@font-face {
+  font-family: 'Proxima Nova Alt Bold';
+  src: url("../fonts/proxima_ssv/ProximaNova-Regular.otf") format("opentype"); }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-family: 'Proxima Nova Alt Bold';
+  font-weight: 100; }
+
+.header-row {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+  padding: 15px; }
+
+.header-lnk {
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black; }
+
+.header-logo {
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #454D7D;
+  letter-spacing: 10px;
+  padding: 60px 0; }
+
+@media (max-width: 700px) {
+  .header-logo {
+    font-size: 27px; } }
+
+@media (max-width: 576px) {
+  .header-logo {
+    font-size: 16px; } }
+
+.logo {
+  position: relative; }
+
+.logo img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 15px;
+  margin: auto;
+  top: 0;
+  border: 0;
+  margin-top: 40px; }
+
+.bio {
+  font-size: 35px; }
+
+.card {
+  height: 500px;
+  margin: -15px;
+  color: white;
+  position: relative; }
+
+.card-blue {
+  border: solid 100px #CEE4F0;
+  background-color: #B7C2D6;
+  text-align: center; }
+
+.card-red {
+  border: solid 100px #F1BABA;
+  text-align: center;
+  background-color: #D44443; }
+
+.card-blue .card-lid {
+  background-color: #B7C2D6; }
+
+.card-red .card-lid {
+  background-color: #D44443; }
+
+.card .card-lid {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: all 300ms;
+  padding-top: 30px; }
+
+.card:hover .card-lid {
+  opacity: 0;
+  display: none; }
+
+.card-1 {
+  overflow: hidden;
+  text-align: center; }
+
+.card-1 .img {
+  margin-top: 10px;
+  width: auto;
+  height: 350px;
+  background-image: url("../images/footer.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.card-1 h2 {
+  color: white; }
+
+.owl-carousel .item {
+  height: 350px;
+  overflow: hidden; }
+
+.img-holder {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.img-holder .img {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border: 0;
+  top: 0;
+  margin-top: 75px;
+  background-image: url("../images/bio.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+@media (max-width: 1650px) {
+  .img-holder .img {
+    height: 300px;
+    width: 300px;
+    position: relative; } }
+
+.owl-theme .item img {
+  height: 100%;
+  width: auto; }
+
+.br {
+  width: 100px;
+  border-bottom: solid 1px #464646;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.card h2 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px; }
+
+.card h5 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  color: #464646;
+  padding-bottom: 15px;
+  font-weight: 100;
+  letter-spacing: 4px; }
+
+.card-2 {
+  font-size: 25px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.card-3 {
+  padding: 20px;
+  overflow: hidden; }
+
+.card-3 ul {
+  text-align: left;
+  font-size: 23px; }
+
+#map {
+  width: 100%;
+  height: 50px;
+  background-color: red; }
+
+@media (max-width: 700px) {
+  .card-blue {
+    border: unset; }
+  .card-red {
+    border: unset; } }
+
+.card:hover {
+  border: unset; }
+
+.card:hover #map {
+  height: 75%; }
